@@ -7,6 +7,6 @@
 .dsmovie-stars-container svg {
 	width: 22px;
 	height: auto;
-	color: #FFBB3A;
+	color: var(--color-primary);
 	margin: 10px 0;
 }

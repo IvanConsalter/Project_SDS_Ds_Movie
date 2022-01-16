@@ -12,6 +12,10 @@
 	align-items: center;
 }
 
+.dsmovie-pagination-box .pagination-number {
+	color: #FFF;
+}
+
 .dsmovie-pagination-box form {
 	width: 100%;
 	display: flex;
@@ -27,6 +31,7 @@
 	align-items: center;
 	border: 1px solid var(--color-primary);
 	cursor: pointer;
+	border: none;
 }
 
 .dsmovie-pagination-button svg {

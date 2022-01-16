@@ -25,7 +25,7 @@ function Pagination( {page, onChange} : Props ) {
             />
           </svg>
         </button>
-        <p>{`${page.number + 1} de ${page.totalPages}`}</p>
+        <p className="pagination-number">{`${page.number + 1} de ${page.totalPages}`}</p>
         <button className="dsmovie-pagination-button" disabled={page.last} onClick={() => onChange(page.number + 1)}>
           <svg
             xmlns="http://www.w3.org/2000/svg"

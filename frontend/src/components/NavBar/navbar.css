@@ -1,39 +1,63 @@
 header {
-    height: 3.75rem;
-    background-color: var(--color-primary);
-    display: flex;
-    align-items: center;
+  height: 3.75rem;
+  background-color: var(--color-primary);
+  display: flex;
+  align-items: center;
 }
 
 header p {
-    margin: 0;
+  margin: 0;
 }
+
 .dsmovie-nav-content {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #fff;
 }
 
 .dsmovie-nav-content h1 {
-    font-size: 2rem;
-    margin: 0;
-    font-weight: 700;
+  font-size: 2rem;
+  margin: 0;
+  font-weight: 700;
 }
 
 .dsmovie-contact-container,
 .dsmovie-contact-container a {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .dsmovie-contact-link {
-    font-size: 1rem;
-    margin-right: 2rem;
-    display: flex;
-    align-items: center;
+  font-size: 1rem;
+  margin-right: 2rem;
+  display: flex;
+  align-items: center;
 }
 
 .dsmovie-contact-link p {
-    margin-left: .5rem;
+  margin-left: 0.5rem;
+}
+
+@media screen and (max-width: 520px) {
+
+	header {
+		height: auto;
+	}
+
+	.container {
+		padding: .5rem 0;
+	}
+
+  .dsmovie-nav-content {
+    display: flex;
+		flex-direction: column;
+    align-items: center;
+		justify-content: center;
+  }
+
+	.dsmovie-contact-container {
+		margin: .5rem 0;
+	}
+
 }
