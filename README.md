@@ -1,6 +1,6 @@
 # :rocket: DSMovies :rocket:
 
-:eyes: https://ivanconsalter-dsmovie.netlify.app/ :eyes:
+<!-- eyes: https://ivanconsalter-dsmovie.netlify.app/ :eyes:] -->
 
 ## About the Project
 
